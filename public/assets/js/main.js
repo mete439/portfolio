@@ -12,11 +12,11 @@
 
 	// Breakpoints.
 		breakpoints({
-			wide:      [ '961px',  '1880px' ],
-			normal:    [ '961px',  '1620px' ],
-			narrow:    [ '961px',  '1320px' ],
-			narrower:  [ '737px',  '960px'  ],
-			mobile:    [ null,     '736px'  ]
+			wide:      [ '961px', '1880px' ],
+			normal:    [ '961px', '1620px' ],
+			narrow:    [ '961px', '1320px' ],
+			narrower:  [ '737px', '960px' ],
+			mobile:    [ null, '736px' ],
 		});
 
 	// Play initial animations on page load.
@@ -89,7 +89,7 @@
 								else if ($this.hasClass('active-locked'))
 									$this.removeClass('active-locked');
 
-						}
+						},
 					});
 
 			});
@@ -117,7 +117,7 @@
 					resetForms: true,
 					side: 'left',
 					target: $body,
-					visibleClass: 'header-visible'
+					visibleClass: 'header-visible',
 				});
 
 })(jQuery);
