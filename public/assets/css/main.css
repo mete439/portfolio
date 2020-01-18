@@ -88,7 +88,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: rgb(136, 136, 136);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -156,7 +156,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: gray;
 	}
 
 	em, i {
